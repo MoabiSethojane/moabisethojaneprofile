@@ -1,7 +1,6 @@
 *{
 padding: 0;
 margin: 0;
-background: url("background.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,12 +33,13 @@ list-style: none;
 a{
     padding: 5px;
     margin: 20px;
-    color: ghostwhite;
+    color:black;
     text-decoration: none;
 }
 #aboutmain{
     width: 100%;
-    color: ghostwhite;
+    color: deeppink;
+    font-size: medium;
 }
 #intro{
     padding: 5px;
@@ -62,7 +62,10 @@ a{
     margin: 5px;
 }
 #footertable{
+    background-color: red;
     width: 100%;
+    margin: 5px;
+    padding: 5px;
 
 }
 #facebookicon{
@@ -87,11 +90,11 @@ a{
 }
 
 .navfooter{
-    color: ghostwhite;
+    color: black;
     padding: 10px;
     margin: 5px;
 }
 a:hover {
-    color: black;
+    color: red;
     background-color:grey;
 }
