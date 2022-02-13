@@ -1,0 +1,124 @@
+
+
+*{
+padding: 0;
+margin: 0;
+background: url("background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#headertable{
+    width: 100%;
+
+}
+#maintable{
+    width: 100%;
+
+}
+.bio{
+    margin: 15px;
+    color: ghostwhite;
+}
+.bio ul{
+    list-style: none;
+}
+#logo{
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+
+#videoport{
+width: 100%;
+height: auto;
+}
+#mypicture{
+width: 500px;   
+height: auto;
+border-radius: 3%;
+padding: 5px;
+}
+
+.nav {
+padding: 20px;
+display: block;
+}
+a{
+     padding: 5px;
+    margin: 20px;
+    color: ghostwhite;
+    text-decoration: none;
+}
+.nav ul{
+
+    
+}
+.nav ul li{
+    padding: 10px;
+    text-align: center;
+    display: inline;
+}
+a :hover{
+color: floralwhite ;    
+background-color: floralwhite;
+}
+h1{
+    text-align: left;
+    color: firebrick;
+}
+#btn1{
+    color: ghostwhite;
+    border-radius: 5px;
+    border:30%;
+    padding: 5px;
+}
+#footertable{
+    width: 100%;
+}
+#facebookicon{
+    width: 50px;
+      border-radius: 10px;
+      color: black;
+    background-color:grey;
+
+}
+#twittericon{
+    width: 50px;
+      border-radius: 10px;
+     
+}
+
+#linkedinicon{
+    width: 50px;
+    border-radius: 10px;
+    color: black;
+    background-color:grey;
+}
+#whatappicon{
+    width: 50px;
+    border-radius: 50%;
+    color: black;
+    background-color:grey;
+
+}
+#phoneNumber{
+  width: 50px
+
+}
+
+.navfooter{
+    color: ghostwhite;
+    padding: 10px;
+    margin: 5px;
+}
+
+ a:hover {
+    color: black;
+    background-color:grey;
+}

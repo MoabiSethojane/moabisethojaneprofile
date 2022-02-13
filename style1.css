@@ -1,0 +1,97 @@
+*{
+padding: 0;
+margin: 0;
+background: url("background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#aboutHeader{
+    width: 100%;
+}
+#logo{
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px;
+}
+h1{
+    padding: 5px;
+}
+
+.nav ul{
+list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+    color: ghostwhite;
+    padding: 5px;
+}
+.nav ul li a{
+    list-style: none;
+}
+a{
+    padding: 5px;
+    margin: 20px;
+    color: ghostwhite;
+    text-decoration: none;
+}
+#aboutmain{
+    width: 100%;
+    color: ghostwhite;
+}
+#intro{
+    padding: 5px;
+    margin: 5px;
+}
+#p1{
+    padding: 5px;
+    margin: 5px;
+}
+#p2{
+    padding: 5px;
+    margin: 5px;
+}
+#p3{
+    padding: 5px;
+    margin: 5px;
+}
+#p4{
+    padding: 5px;
+    margin: 5px;
+}
+#footertable{
+    width: 100%;
+
+}
+#facebookicon{
+    width: 50px;
+      border-radius: 10px;
+}
+#twittericon{
+    width: 50px;
+      border-radius: 10px;
+}
+#linkedinicon{
+    width: 50px;
+    border-radius: 10px;
+}
+#whatappicon{
+    width: 50px;
+    border-radius: 50%;
+}
+#phoneNumber{
+  width: 50px
+
+}
+
+.navfooter{
+    color: ghostwhite;
+    padding: 10px;
+    margin: 5px;
+}
+a:hover {
+    color: black;
+    background-color:grey;
+}
