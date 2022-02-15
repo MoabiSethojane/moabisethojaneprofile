@@ -3,7 +3,7 @@
 *{
 padding: 0;
 margin: 0;
-background: url("background.png");
+
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,7 @@ background: url("background.png");
 
 #headertable{
     width: 100%;
+        background-color: red;
 
 }
 #maintable{
@@ -21,7 +22,7 @@ background: url("background.png");
 }
 .bio{
     margin: 15px;
-    color: ghostwhite;
+
 }
 .bio ul{
     list-style: none;
@@ -52,8 +53,8 @@ display: block;
 a{
      padding: 5px;
     margin: 20px;
-    color: ghostwhite;
     text-decoration: none;
+color: black;
 }
 .nav ul{
 
@@ -73,13 +74,16 @@ h1{
     color: firebrick;
 }
 #btn1{
-    color: ghostwhite;
     border-radius: 5px;
     border:30%;
     padding: 5px;
 }
 #footertable{
+
+    background-color: red;
     width: 100%;
+    margin: 5px;
+    padding: 5px;
 }
 #facebookicon{
     width: 50px;
@@ -89,7 +93,7 @@ h1{
 
 }
 #twittericon{
-    width: 50px;
+    width: 30px;
       border-radius: 10px;
      
 }
@@ -101,14 +105,15 @@ h1{
     background-color:grey;
 }
 #whatappicon{
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
     color: black;
     background-color:grey;
 
 }
 #phoneNumber{
-  width: 50px
+  width: 30px
+
 
 }
 

@@ -5,10 +5,10 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
 
-
 }
 #aboutHeader{
     width: 100%;
+        background-color: red;
 }
 #logo{
     width: 80px;
@@ -69,11 +69,11 @@ a{
 
 }
 #facebookicon{
-    width: 50px;
+    width: 30px;
       border-radius: 10px;
 }
 #twittericon{
-    width: 50px;
+    width: 30px;
       border-radius: 10px;
 }
 #linkedinicon{
@@ -81,11 +81,12 @@ a{
     border-radius: 10px;
 }
 #whatappicon{
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
 }
 #phoneNumber{
-  width: 50px
+  width: 30px
+
 
 }
 

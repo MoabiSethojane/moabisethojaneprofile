@@ -1,13 +1,14 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	background: url("background.png");
+
 	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #contactheader{
 	width: 100%;
+        background-color: red;
 
 }
 #logo{
@@ -23,27 +24,28 @@ margin: 5px;
 
 }
 #inputform{
-
-	color: ghostwhite;
 	padding: 5px ;
 	margin: 5px;
 }
 #submit{
-    color: ghostwhite;
     border-radius: 10%;
     border: "1px";
     padding: 5px;
     margin: 5px;
 }
 #footertable{
+
+    background-color: red;
     width: 100%;
+    margin: 5px;
+    padding: 5px;
 }
 #facebookicon{
-    width: 50px;
+    width: 30px;
       border-radius: 10px;
 }
 #twittericon{
-    width: 50px;
+    width: 30px;
       border-radius: 10px;
 }
 #linkedinicon{
@@ -51,21 +53,15 @@ margin: 5px;
     border-radius: 10px;
 }
 #whatappicon{
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
 }
 #phoneNumber{
-  width: 50px
+  width: 30px
 
 
 }
 
-.navfooter{
-
-    color: ghostwhite;
-    padding: 10px;
-    margin: 5px;
-}
 
 .nav ul{
 list-style: none;
@@ -84,7 +80,7 @@ padding: 5px;
 margin: 20px;
 display: inline;
 	text-decoration: none;
-	color: ghostwhite;
+    color: black;
 }
 
 a:hover {
