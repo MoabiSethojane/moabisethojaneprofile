@@ -86,3 +86,10 @@ a:hover {
     color: black;
     background-color:grey;
 }
+#tableform{
+    padding: 25px;
+    margin: 10px;
+}
+h2{
+    color: maroon;
+}
