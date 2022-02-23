@@ -6,20 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>contact me</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
+	
 </head>
 <body>
 <header>
 	<table id="contactheader">
 		<tr>
 			<td>
-			<img  id="logo" src="E:\Myprofile\assets\logo.png" alt="logo not available">
+			<img  id="logo">
 			</td>
 			<td align="right"> 
-				<div class="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html" target="blank">About</a></li>
-					</ul>
+				<div id="nav">
+					
 					
 				</div>
 
@@ -32,111 +30,53 @@
 		<tr>
 		
 		<td>
-			<h3>Address</h3>
+			
 		</td>	
 		</tr>
 		<br>
 		<tr>
 				<td>
-					<p>City:Johannesburg <br>Province: Gauteng</p>
+					
 					</td>
+		</tr>
+		<tr>
+			<td>
+				
+			</td>
 		</tr>
 	</table>
 	
-
-					<form  action="http://formspree.io/moabisethojane@gmail.com" method="POST">
-					<table id="tableform">
-						<tr>
-								<td>
-									<h2>Contact Me form</h2>
-								</td>
-						</tr>
-						<tr>
-							<td>
-								<label for="name">name: </label>
-								</td>
-								</tr>
-								<tr>
-									<td>
-										<input type="text" id="name"  name="name" placeholder="Enter name" required/>
-									</td>
-								</tr>	
+<!---->
+				<div class="wrapper">
 					
-						
-						
-						<tr>
-							<td>
-								<label for="surname">surname: </label>
-							</td>
-						</tr>
-							<tr>
-							<td>
-										<input type="text" id="surname" name="surname" placeholder="Enter surname" required/>
-							</td>	
-							</tr>
-			
-							
-						
-						<tr>
-							<td>
-								<label for="e-mail">e-mail:</label>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								
-							
-							<input type="email" id="e-mail" name="e-mail" placeholder="example@gmail.com" required/>
-							</td>
-						</tr>
-						
+<h2>Contact us</h2>
+	<div id="error_massage">
+	</div>  
 
-
-<tr>
-							<td>
-							<label for="message">message: </label>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<input type="text" id="message" name="message" placeholder="Comments" required/>
-					
-							</td>
-						</tr>
-
-
-
-						<tr>
-							<td>
-									
-								<label for="phonenumber">phone number:</label>	
-							</td>
-						</tr>
-
-						<tr>
-							<td>		
-					<input type="tel" id="phonenumber" name="phonenumber"  placeholder="0635888170" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}"/>
-							</td>
-						</tr>
-						<tr><td>
-							<input type="submit" name="submite" id="submit">
-						</td>
-					</tr>
-					</table >
-					
-
-					
-					
-					
-					
-					
-			
 				
-					 
-					
-					
+					<form   onsubmit="return validation()" action="https://formspree.io/f/xzborkew" method="POST">
+						
+					<div class="input_field">
+		<input type="text" name="name" id="name" placeholder="name">
+	</div>
+	<div class="input_field">
+		<input type="text" name="surname" id="surname" placeholder="surname">
+	</div>
+	<div class="input_field">
+		<input type="text" name="email" id="email" placeholder="email">
+	</div>
+	<div class="input_field">
+		<input type="text" name="phone" id="phone" placeholder="phone">
+	</div>
+	<div class="input_field">
+		<textarea id="message" placeholder="Message"></textarea>
+	</div>
+	<div class="btn">
+		<input type="submit">
+	</div>
 					
 				</form>
+				</div>
 </main>
 <br>
 <br>
@@ -152,24 +92,25 @@
     <tr>
         <td>
            
-             <a href="https://www.facebook.com/moabi.sethojane.3/" target="blank"> <img id="facebookicon" src="E:\Myprofile\assets\facebook-social-media-icon-facebook-logo.png"> facebook </a>
+      
          </td>
          <td>
-         	 <a href="https://twitter.com/MoabiSethojane" target="blank"> <img id="twittericon" src="E:\Myprofile\assets\free-twitter-logo-icon-2429-thumb.png"  > twitter</a>
+         	 
          </td>
             <td>
-            	<a href="https://www.linkedin.com/in/moabi-sethojane-32346892/" target="blank"><img id="linkedinicon" src="E:\Myprofile\assets\Linkedin-Logo.png">  linkedin</a>
+        
             </td>
               
             <td>
-              <img id="whatappicon" src="E:\Myprofile\assets\whatsapp-social-media-icon-design-template-vector-22339907.jpg"> whatsapp number:0685335569 </td>
+              </td>
               <td>
-             <img id="phoneNumber" src=" E:\Myprofile\assets\phone-icon-telephone-icon-which-i-going-to-present-you-unique-you-totally-different-any-other-icons-you-111739308.jpg"> contact number: 0614666063
-  
-           
+       
         </td>
     </tr>
 </table>
 </footer>
 </body>
+<script type="text/javascript" src="contact.js">
+	
+</script>
 </html>

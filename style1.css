@@ -19,10 +19,10 @@ h1{
     padding: 5px;
 }
 
-.nav ul{
+#nav ul{
 list-style: none;
 }
-.nav ul li {
+#nav ul li {
     display: inline-block;
     color: ghostwhite;
     padding: 5px;
