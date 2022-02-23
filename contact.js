@@ -7,7 +7,7 @@ logo();
     navbar();
   function navbar(){
 
-    document.getElementById("nav").innerHTML='<a href="index.html">Home</a> <a href="about.html" target="blank">About me</a>>  ';
+    document.getElementById("nav").innerHTML='<a href="index.html">Home</a> <a href="about.html" target="blank">About me</a>  ';
 
               
   }
