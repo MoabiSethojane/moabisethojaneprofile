@@ -15,6 +15,10 @@
 }
 body{
  background-color: limegreen;
+
+}
+h2{
+    font-family: unset;
 }
 #contactmaintable{
 
@@ -110,8 +114,11 @@ width: 100%;
 .wrapper #error_massage{
     margin-bottom: 20px;
     padding: 0px;
-    background-color: red;
+    background-color: indianred;
     text-align: center;
     font-size: 14px;
+    border-radius: 15px;
+    color: ghostwhite;
+    font-family: sans-serif;
 
 }
