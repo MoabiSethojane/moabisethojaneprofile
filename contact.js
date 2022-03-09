@@ -1,7 +1,7 @@
 
 logo();
     function logo(){
-        document.getElementById('logo').src='logo.png';  
+        document.getElementById('logo').src='./assets/logo.png';  
     }
      
     navbar();
@@ -64,5 +64,5 @@ if (email.indexOf("@")==-1 || email.length<6) {
 }
 footer();
   function footer(){
-    document.getElementById('footertable').innerHTML=' <a href="https://www.facebook.com/moabi.sethojane.3/" target="blank"> <img id="facebookicon"src="facebook-social-media-icon-facebook-logo.png"> facebook</a></td> <a href="https://www.linkedin.com/in/moabi-sethojane-32346892/" target="blank"><img id="linkedinicon" src="Linkedin-Logo.png">  linkedin</a>   <a href="https://twitter.com/MoabiSethojane" target="blank"> <img id="twittericon" src="free-twitter-logo-icon-2429-thumb.png"> twitter</a> <img id="whatappicon" src="whatsapp-social-media-icon-design-template-vector-22339907.jpg"> whatsapp number:0685335569  <img id="phoneNumber" src="phone-icon-telephone-icon-which-i-going-to-present-you-unique-you-totally-different-any-other-icons-you-111739308.jpg"> contact number: 0614666063';
+    document.getElementById('footertable').innerHTML=' <a href="https://www.facebook.com/moabi.sethojane.3/" target="blank"> <img id="facebookicon"src="./assets/facebook-social-media-icon-facebook-logo.png"> facebook</a></td> <a href="https://www.linkedin.com/in/moabi-sethojane-32346892/" target="blank"><img id="linkedinicon" src="./assets/Linkedin-Logo.png">  linkedin</a>   <a href="https://twitter.com/MoabiSethojane" target="blank"> <img id="twittericon" src="./assets/free-twitter-logo-icon-2429-thumb.png"> twitter</a> <img id="whatappicon" src="./assets/whatsapp-social-media-icon-design-template-vector-22339907.jpg"> whatsapp number:0685335569  <img id="phoneNumber" src="./assets/phone-icon-telephone-icon-which-i-going-to-present-you-unique-you-totally-different-any-other-icons-you-111739308.jpg"> contact number: 0614666063';
   }
